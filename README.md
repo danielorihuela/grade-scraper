@@ -18,7 +18,14 @@ This has been created for personal use and has only been tested for an account e
     You will need to modify the path to point to the executable in your system.
 ```bash
 #In linux you can do that by
-alias notes="export PATH=$PATH:path-to-repository-parent-folder/grade_scraper/target/debug/ && grade_scraper"
+> alias notes="export PATH=$PATH:path-to-repository-parent-folder/grade_scraper/target/debug/ && grade_scraper"
+```
+4. Run the executable by executing the alias or using cargo.
+```bash
+#  in the root folder of the repository
+> cargo run
+# or anywhere in the system
+> notes
 ```
 
 ## Images
