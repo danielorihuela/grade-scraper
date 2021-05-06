@@ -12,13 +12,13 @@ This has been created for personal use and has only been tested for an account e
 2. Build the project. Execute the following command in the root folder of this repository.
    A warning will be printed to the screen. I follow a positive strategy, no errors will be thrown so I do not handle them.
   ``` bash
-  > cargo build
+  > cargo build --release
   ```
 3. (Optional) Create an alias to execute the program from anywhere in your system.
     You will need to modify the path to point to the executable in your system.
 ```bash
 #In linux you can do that by
-> alias notes="export PATH=$PATH:path-to-repository-parent-folder/grade_scraper/target/debug/ && grade_scraper"
+> alias notes="export PATH=$PATH:path-to-repository-parent-folder/grade_scraper/target/release/ && grade_scraper"
 ```
 4. Run the executable by executing the alias or using cargo.
 ```bash
