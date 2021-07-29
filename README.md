@@ -1,4 +1,4 @@
-# grade_scraper
+# grade-scraper
 
 Toy project to learn a bit of web scraping and Rust.
 
